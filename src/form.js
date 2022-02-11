@@ -22,7 +22,7 @@ function Form (){
 
    const submitFunction = (e) =>{
         e.preventDefault();
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${searchCityValue}&units=imperial&appid=8a78e069bb74338cceace00e40be926d`,{
+        fetch(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${searchCityValue}&units=imperial&appid=8a78e069bb74338cceace00e40be926d`,{
             mode: 'cors'
         })
             .then(res=>res.json())

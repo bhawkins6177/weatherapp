@@ -13,7 +13,7 @@ function Ui(props){
                     <div className='details'>
                         <p>Feels Like: {props.feelsLike}</p>
                         <p>Wind Speed: {props.wind} Mph</p>
-                        <p>Humidty: {props.humidity}</p>
+                        <p>Humidty: {props.humidity}%</p>
                     </div>
                 </div>
             </div>
