@@ -58,7 +58,7 @@ function Form (){
                 value = {searchCityValue}>
                 </input>
                 {/* <button>Search!</button> */}
-                <p> DISCLAIMER: the free version of the API no longer supports http, I will be switching to a different api soon, or upgrading. </p>
+                <p className="disclaimer"> DISCLAIMER: the free version of the API no longer supports http, I will be switching to a different api soon, or upgrading. </p>
             </form>
             <Ui 
             
